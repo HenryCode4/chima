@@ -67,6 +67,7 @@ export const projectsData = [
       "Built a snickers store with the latest technologies.",
     tags: ["React", "vite", "Tailwind"],
     imageUrl: shopsnickers,
+    projectUrl: 'https://shop-snickers.vercel.app/'
   },
   {
     title: "Threads-Clone",
@@ -74,6 +75,7 @@ export const projectsData = [
       "Threads clone app.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: mythreads,
+    projectUrl: "https://threads-app-livid.vercel.app/"
   },
   {
     title: "Messenger-clone",
@@ -81,6 +83,7 @@ export const projectsData = [
       "Messenger app for texting with real time chat.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Prisma"],
     imageUrl: messenger,
+    projectUrl: 'https://messenger-gamma-ebon.vercel.app/'
   },
 ] as const;
 
