@@ -33,7 +33,7 @@ export default function Contact() {
       }}
     >
         <SectionHeading>Contact me</SectionHeading>
-        <p className='text-gray-700 text-center -mt-6'>Please contact me directly at <a className='underline' href="mailto:henrycnnamani4@gmail.com">henrycnnamani4@gmail.com</a> or through this form.</p>
+        <p className='text-gray-700 text-center -mt-6 dark:text-white/70'>Please contact me directly at <a className='underline' href="mailto:henrycnnamani4@gmail.com">henrycnnamani4@gmail.com</a> or through this form.</p>
 
         <form 
         
@@ -48,17 +48,17 @@ export default function Contact() {
 
             toast.success("Email send successfully!");
         }}
-         className='mt-10 flex flex-col '>
+         className='mt-10 flex flex-col dark:text-black '>
             <input
             placeholder='Your email'
             name='senderEmail'
             required
-            className='px-4 h-14 rounded-lg border border-black/10' type="email" />
+            className='px-4 h-14 rounded-lg border border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' type="email" />
             <textarea 
             name='message'
             required
             placeholder='Your message'
-            className='h-52 my-3 rounded-lg border border-black/10 p-4' />
+            className='h-52 my-3 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' />
             <SubmitBtn />
         </form>
     </motion.section>
