@@ -37,21 +37,21 @@ export default function Contact() {
 
         <form 
 
-          action="https://getform.io/f/b7c575da-bb28-4f55-9dc4-b95d916645a2"
-          method='POST'
-          encType='multipart/form-data'
+          // action="https://getform.io/f/b7c575da-bb28-4f55-9dc4-b95d916645a2"
+          // method='POST'
+          // encType='multipart/form-data'
         
-        // action={async (formData)=> {
+        action={async (formData)=> {
 
-        //     const {data, error} = await sendEmail(formData);
+            const {data, error} = await sendEmail(formData);
 
-        //     if(error){
-        //       toast.error(error);
-        //       return
-        //     }
+            if(error){
+              toast.error(error);
+              return
+            }
 
-        //     toast.success("Email send successfully!");
-        // }}
+            toast.success("Email send successfully!");
+        }}
          className='mt-10 flex flex-col dark:text-black '>
             <input
             placeholder='Your email'
