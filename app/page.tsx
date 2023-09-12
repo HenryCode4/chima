@@ -3,6 +3,7 @@ import Experience from '@/components/Experience'
 import Intro from '@/components/Intro'
 import SectionDivider from '@/components/Section-divider'
 import Contact from '@/components/contact'
+import Footer from '@/components/footer'
 import Projects from '@/components/projects'
 import Skills from '@/components/skills'
 
